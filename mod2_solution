@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Assignment Solution for Module 2</title>
+</head>
+
+<body>
+    <header><h1>Our Menu</h1></header>
+    <div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div id="p1"><h3>Chicken</h3></div>
+            <p id="section">Section 1: Here is the mockup illustration of the desktop version of the site. Your final result should look very close to this mockup. Here is the mockup illustration of the...</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div id="p2"><h3>Beef</h3></div>
+            <p id="section">Section 2: Here is the mockup illustration of the desktop version of the site. Your final result should look very close to this mockup.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div id="p3"><h3>Sushi</h3></div>
+            <p id="section">Section 3: Here is the mockup illustration of the desktop version of the site. Your final result should look very close to this mockup.</p>
+        </div>
+    </div>
+</body>
+</html>
