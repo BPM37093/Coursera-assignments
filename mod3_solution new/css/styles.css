@@ -1,0 +1,249 @@
+body{
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7abaff;
+  height: 90px;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #fd7e14;
+  font-size: 2.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #17a2b8;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  line-height: 1.25;
+  float: left;
+}
+
+#header-menu {
+  padding: 30px;
+  /*margin: auto;*/
+  margin-bottom: 13px;
+  text-align: center;
+  font-size: 75%;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fd7e14;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ffeeba;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fd7e14;
+}
+.navbar-header button.navbar-toggle {
+  /*clear: both;*/
+  margin: 30px 30px 0 0;
+}
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+.home-title {
+  background-color: #ba8b00;
+  border: 1px solid black;
+
+}
+
+#chicken-title, #beef-title, #sushi-title {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 2%;
+}
+
+#chicken-context, #beef-context, #sushi-context {
+  background-color: #ffeeba;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: left;
+  padding: 3%;
+}
+
+.row {
+  /*width: 100%;*/
+  position: center;
+  margin: auto;
+  padding: auto;
+}
+/* home */
+
+/**/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*!* Header *!*/
+  /*#logo-img {*/
+  /*  background: url('../images/restaurant-logo_medium.png') no-repeat;*/
+  /*  width: 100px;*/
+  /*  height: 100px;*/
+  /*  margin: 5px 5px 5px 0;*/
+  /*}*/
+  /*!* End Header *!*/
+
+  /*!* Home Page *!*/
+  /*.container .jumbotron {*/
+  /*  background: url('../images/jumbotron_992.jpg') no-repeat;*/
+  /*  height: 558px;*/
+  /*}*/
+  /*!* End Home Page *!*/
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*!* Home Page *!*/
+  /*.container .jumbotron {*/
+  /*  background: url('../images/jumbotron_768.jpg') no-repeat;*/
+  /*  height: 432px;*/
+  /*}*/
+  /*!* End Home Page *!*/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/*  !* Header *!*/
+/*  .navbar-brand {*/
+/*    padding-top: 10px;*/
+/*    height: 80px;*/
+/*  }*/
+  /*.navbar-brand h1 { !* Restaurant name *!*/
+  /*  padding-top: 10px;*/
+  /*  font-size: 5vw; !* 1vw = 1% of viewport width *!*/
+  /*}*/
+/*  .navbar-brand p { !* Kosher cert *!*/
+/*    font-size: .6em;*/
+/*    margin-top: 12px;*/
+/*  }*/
+/*  .navbar-brand p img { !* Star-K *!*/
+/*    height: 20px;*/
+/*  }*/
+
+/*  #collapsable-nav a { !* Collapsed nav menu text *!*/
+/*    font-size: 1.2em;*/
+/*  }*/
+/*  #collapsable-nav a span { !* Collapsed nav menu glyph *!*/
+/*    font-size: 1em;*/
+/*    margin-right: 5px;*/
+/*  }*/
+
+/*  #call-btn > a {*/
+/*    font-size: 1.5em;*/
+/*    display: block;*/
+/*    margin: 0 20px;*/
+/*    padding: 10px;*/
+/*    border: 2px solid #fff;*/
+/*    background-color: #f6b319;*/
+/*    color: #951c49;*/
+/*  }*/
+/*  #xs-deliver {*/
+/*    margin-top: 5px;*/
+/*    font-size: .7em;*/
+/*    letter-spacing: .1em;*/
+/*    text-transform: uppercase;*/
+/*  }*/
+/*  !* End Header *!*/
+
+/*  !* Footer *!*/
+/*  .panel-footer section {*/
+/*    margin-bottom: 30px;*/
+/*    text-align: center;*/
+/*  }*/
+/*  .panel-footer section:nth-child(3) {*/
+/*    margin-bottom: 0; !* margin already exists on the whole row *!*/
+/*  }*/
+/*  .panel-footer section hr {*/
+/*    width: 50%;*/
+/*  }*/
+/*  !* End Footer *!*/
+
+/*  !* Home Page *!*/
+/*  .container .jumbotron {*/
+/*    margin-top: 30px;*/
+/*    padding: 0;*/
+/*  }*/
+/*  #menu-tile, #specials-tile {*/
+/*    width: 360px;*/
+/*    margin: 0 auto 15px;*/
+/*  }*/
+
+/*  .menu-item-photo {*/
+/*    margin-right: auto;*/
+/*  }*/
+/*  .menu-item-tile .menu-item-price {*/
+/*    text-align: center;*/
+/*  }*/
+/*  .menu-item-description {*/
+/*    text-align: center;;*/
+/*  }*/
+/*}*/
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /*!* Header *!*/
+  /*.navbar-brand h1 { !* Restaurant name *!*/
+  /*  padding-top: 5px;*/
+  /*  font-size: 6vw;*/
+  /*}*/
+  /*!* End Header *!*/
+  
+  /*!* Home page *!*/
+  /*#menu-tile, #specials-tile {*/
+  /*  width: 280px;*/
+  /*  margin: 0 auto 15px;*/
+  /*}*/
+
+  /*.col-xxs-12 {*/
+  /*  position: relative;*/
+  /*  min-height: 1px;*/
+  /*  padding-right: 15px;*/
+  /*  padding-left: 15px;*/
+  /*  float: left;*/
+  /*  width: 100%;*/
+  /*}*/
+}
+
+
+
